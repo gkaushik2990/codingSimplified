@@ -7,14 +7,10 @@
 //   reverse('Greetings!') === '!sgniteerG'
 
 function reverse(str) {
-    //using the array reversing using for loop
-    var a = str.split("");
-    var out="";
-    for(i=a.length-1;i>=0;i--){
-        out+=a[i];
-    }
-    return out;
+    // Using reverse function
+    return str.split("").reverse().join("");
 }
 
+console.log(reverse("abc"));
 
-module.exports = reverse;
+//module.exports = reverse;
