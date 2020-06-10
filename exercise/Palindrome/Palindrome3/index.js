@@ -19,4 +19,5 @@ function palindrome(str) {
 
     return revStr.join('') == str;
 }
+
 module.exports = palindrome;
