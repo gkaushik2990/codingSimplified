@@ -7,13 +7,30 @@
 // forms the first ten entries of the fibonacci series.
 // Example:
 //   fib(4) === 3
-//Using Recursion
-function fib(n) {
+//Using Recursion & memoization
+function memoize(fn){
+    let cache = {};
+    return function(...args){
+        if(cache[args]){
+            return cache[args];
+        }
+
+        const result = fn.apply(this, args);
+        cache[args] = result;
+
+        return result;
+    }
+}
+
+function fibc(n) {
     if(n<2){
         return n;
     }
-    return fib(n-1)+fib(n-2);    
+    return fib(n-1)+fib(n-2);
+    
 }
+
+const fib = memoize(fibc);
 
 //console.log(fib(10));
 
