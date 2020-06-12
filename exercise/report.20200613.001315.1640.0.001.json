@@ -1,0 +1,469 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200613.001315.1640.0.001.json",
+    "dumpEventTime": "2020-06-13T00:13:15Z",
+    "dumpEventTimeStamp": "1591987395770",
+    "processId": 1640,
+    "cwd": "D:\\CodingSimplified\\codingSimplified\\exercise",
+    "commandLine": [
+      "node",
+      "C:\\Users\\gkaus\\AppData\\Roaming\\npm\\\\node_modules\\jest\\bin\\jest.js",
+      "qforms",
+      "--watch"
+    ],
+    "nodejsVersion": "v12.16.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.16.1",
+      "v8": "7.8.279.23-node.31",
+      "uv": "1.34.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.40.0",
+      "napi": "5",
+      "llhttp": "2.0.4",
+      "http_parser": "2.9.3",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.16.1/node-v12.16.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.16.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Home Single Language",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 1124062,
+        "nice": 0,
+        "sys": 1113671,
+        "idle": 35196812,
+        "irq": 266015
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 476750,
+        "nice": 0,
+        "sys": 344421,
+        "idle": 36613171,
+        "irq": 15328
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 1302718,
+        "nice": 0,
+        "sys": 514671,
+        "idle": 35616953,
+        "irq": 15984
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 702421,
+        "nice": 0,
+        "sys": 267593,
+        "idle": 36464328,
+        "irq": 12968
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 926390,
+        "nice": 0,
+        "sys": 386906,
+        "idle": 36121046,
+        "irq": 12265
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 493671,
+        "nice": 0,
+        "sys": 214125,
+        "idle": 36726546,
+        "irq": 4546
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 734968,
+        "nice": 0,
+        "sys": 342375,
+        "idle": 36357000,
+        "irq": 11500
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz",
+        "speed": 2808,
+        "user": 822406,
+        "nice": 0,
+        "sys": 271906,
+        "idle": 36340031,
+        "irq": 4750
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "98:22:ef:b9:86:11",
+        "address": "fe80::558f:b262:b174:538c",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "Wi-Fi",
+        "internal": false,
+        "mac": "98:22:ef:b9:86:11",
+        "address": "192.168.1.7",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "LAPTOP-TRMI829P"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff62a0419f9",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff62a045e1c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff62a044dd8",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff62a1434cb",
+      "symbol": "v8::base::CPU::has_sse+38363"
+    },
+    {
+      "pc": "0x00007ff62a959f4e",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff62a942021",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff62a80e57c",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff62a82b47b",
+      "symbol": "v8::internal::Factory::NewFixedArrayWithFiller+59"
+    },
+    {
+      "pc": "0x00007ff62a82b431",
+      "symbol": "v8::internal::Factory::NewUninitializedFixedArray+65"
+    },
+    {
+      "pc": "0x00007ff62a7081ff",
+      "symbol": "v8::debug::Script::GetIsolate+7631"
+    },
+    {
+      "pc": "0x00007ff62a5b824a",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+162938"
+    },
+    {
+      "pc": "0x00007ff62ada4ddd",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+546637"
+    },
+    {
+      "pc": "0x00000300175ebe3a",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2429906944,
+    "totalCommittedMemory": 2429906944,
+    "usedMemory": 2391943704,
+    "availableMemory": 17172160,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 32808,
+        "used": 32808,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 33554432,
+        "capacity": 16759296,
+        "used": 0,
+        "available": 16759296
+      },
+      "old_space": {
+        "memorySize": 39206912,
+        "committedMemory": 39206912,
+        "capacity": 36632392,
+        "used": 36361544,
+        "available": 270848
+      },
+      "code_space": {
+        "memorySize": 1216512,
+        "committedMemory": 1216512,
+        "capacity": 1108896,
+        "used": 966880,
+        "available": 142016
+      },
+      "map_space": {
+        "memorySize": 2625536,
+        "committedMemory": 2625536,
+        "capacity": 1607920,
+        "used": 1607920,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 1450479616,
+        "committedMemory": 1450479616,
+        "capacity": 1450460888,
+        "used": 1450460888,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 2784,
+        "used": 2784,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 902512640,
+        "committedMemory": 902512640,
+        "capacity": 902510880,
+        "used": 902510880,
+        "available": 0
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 7.046,
+    "kernelCpuSeconds": 3.109,
+    "cpuConsumptionPercent": 0.356942,
+    "maxRss": 2484244480,
+    "pageFaults": {
+      "IORequired": 744683,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 7677,
+      "writes": 28
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "=D:": "D:\\CodingSimplified\\codingSimplified\\exercise",
+    "=ExitCode": "00000000",
+    "add_path": "D:\\setups\\cmder",
+    "aliases": "D:\\setups\\cmder\\config\\user_aliases.cmd",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANSICON": "238x1000 (238x61)",
+    "ANSICON_DEF": "7",
+    "APPDATA": "C:\\Users\\gkaus\\AppData\\Roaming",
+    "architecture": "64",
+    "architecture_bits": "64",
+    "ccall": "call D:\\setups\\cmder\\vendor\\bin\\cexec.cmd",
+    "cexec": "D:\\setups\\cmder\\vendor\\bin\\cexec.cmd",
+    "CMDER_ALIASES": "1",
+    "CMDER_CLINK": "1",
+    "CMDER_CONFIGURED": "1",
+    "CMDER_INIT_END": "22:11:06.22",
+    "CMDER_INIT_START": "22:11:01.74",
+    "CMDER_ROOT": "D:\\setups\\cmder",
+    "CMDER_SHELL": "cmd",
+    "CMDER_USER_FLAGS": " ",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "LAPTOP-TRMI829P",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "ConEmuANSI": "ON",
+    "ConEmuAnsiLog": "",
+    "ConEmuArgs": "/Icon \"D:\\setups\\cmder\\icons\\cmder.ico\" /Title Cmder",
+    "ConEmuArgs2": "",
+    "ConEmuBackHWND": "0x00030616",
+    "ConEmuBaseDir": "D:\\setups\\cmder\\vendor\\conemu-maximus5\\ConEmu",
+    "ConEmuBaseDirShort": "D:\\setups\\cmder\\vendor\\conemu-maximus5\\ConEmu",
+    "ConEmuBuild": "191012",
+    "ConEmuCfgDir": "D:\\setups\\cmder\\vendor\\conemu-maximus5",
+    "ConEmuConfig": "",
+    "ConEmuDir": "D:\\setups\\cmder\\vendor\\conemu-maximus5",
+    "ConEmuDrawHWND": "0x00030660",
+    "ConEmuDrive": "D:",
+    "ConEmuHooks": "Enabled",
+    "ConEmuHWND": "0x000B00AA",
+    "ConEmuPalette": "Monokai",
+    "ConEmuPID": "13172",
+    "ConEmuServerPID": "12208",
+    "ConEmuTask": "{cmd::Cmder}",
+    "ConEmuWorkDir": "D:\\setups\\cmder",
+    "ConEmuWorkDrive": "D:",
+    "debug_output": "0",
+    "depth": "1",
+    "dp0": "C:\\Users\\gkaus\\AppData\\Roaming\\npm\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "fast_init": "0",
+    "feFlagName": " ",
+    "find_query": "D:\\\\setups\\\\cmder",
+    "found": "1",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "git_executable": "D:\\setups\\cmder\\vendor\\git-for-windows\\cmd\\git.exe",
+    "GIT_INSTALL_ROOT": "D:\\setups\\cmder\\vendor\\git-for-windows",
+    "git_locale": "\"D:\\setups\\cmder\\vendor\\git-for-windows\\usr\\bin\\locale.exe\"",
+    "GIT_VERSION_VENDORED": "2.24.1.windows.2",
+    "HOME": "C:\\Users\\gkaus",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\gkaus",
+    "JEST_WORKER_ID": "1",
+    "LANG": "en_US.UTF-8",
+    "lib_base": "call \"D:\\setups\\cmder\\vendor\\lib\\lib_base.cmd\"",
+    "lib_console": "call \"D:\\setups\\cmder\\vendor\\lib\\lib_console.cmd\"",
+    "lib_git": "call \"D:\\setups\\cmder\\vendor\\lib\\lib_git.cmd\"",
+    "lib_path": "call \"D:\\setups\\cmder\\vendor\\lib\\lib_path.cmd\"",
+    "lib_profile": "call \"D:\\setups\\cmder\\vendor\\lib\\lib_profile.cmd\"",
+    "LOCALAPPDATA": "C:\\Users\\gkaus\\AppData\\Local",
+    "LOGONSERVER": "\\\\LAPTOP-TRMI829P",
+    "max_depth": "1",
+    "nix_tools": "1",
+    "NODE_ENV": "test",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OLD_PATH": "D:\\setups\\cmder\\bin;D:\\setups\\cmder\\vendor\\bin;D:\\setups\\cmder\\vendor\\conemu-maximus5\\ConEmu\\Scripts;D:\\setups\\cmder\\vendor\\conemu-maximus5;D:\\setups\\cmder\\vendor\\conemu-maximus5\\ConEmu;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\Program Files\\MongoDB\\Server\\4.2\\bin;C:\\Users\\gkaus\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\gkaus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\gkaus\\AppData\\Roaming\\npm;C:\\Program Files\\MongoDB\\Server\\4.2\\bin;C:\\Users\\gkaus\\AppData\\Local\\atom\\bin;D:\\setups\\cmder\\vendor\\git-for-windows\\cmd;D:\\setups\\cmder\\vendor\\git-for-windows\\mingw64\\bin;D:\\setups\\cmder\\vendor\\git-for-windows\\usr\\bin",
+    "OneDrive": "C:\\Users\\gkaus\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\gkaus\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "D:\\setups\\cmder\\bin;D:\\setups\\cmder\\vendor\\bin;D:\\setups\\cmder\\vendor\\conemu-maximus5\\ConEmu\\Scripts;D:\\setups\\cmder\\vendor\\conemu-maximus5;D:\\setups\\cmder\\vendor\\conemu-maximus5\\ConEmu;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\nodejs\\;C:\\Program Files\\MongoDB\\Server\\4.2\\bin;C:\\Users\\gkaus\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\gkaus\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\gkaus\\AppData\\Roaming\\npm;C:\\Program Files\\MongoDB\\Server\\4.2\\bin;C:\\Users\\gkaus\\AppData\\Local\\atom\\bin;D:\\setups\\cmder\\vendor\\git-for-windows\\cmd;D:\\setups\\cmder\\vendor\\git-for-windows\\mingw64\\bin;D:\\setups\\cmder\\vendor\\git-for-windows\\usr\\bin;D:\\setups\\cmder",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "path_position": "append",
+    "PLINK_PROTOCOL": "ssh",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 158 Stepping 9, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "9e09",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "C\bL\bI\bN\bK\b \b$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SVN_SSH": "D:\\\\setups\\\\cmder\\\\vendor\\\\git-for-windows\\\\bin\\\\ssh.exe",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\gkaus\\AppData\\Local\\Temp",
+    "TERM": "cygwin",
+    "time_init": "0",
+    "TMP": "C:\\Users\\gkaus\\AppData\\Local\\Temp",
+    "USERDOMAIN": "LAPTOP-TRMI829P",
+    "USERDOMAIN_ROAMINGPROFILE": "LAPTOP-TRMI829P",
+    "USERNAME": "gkaus",
+    "USERPROFILE": "C:\\Users\\gkaus",
+    "user_aliases": "D:\\setups\\cmder\\config\\user_aliases.cmd",
+    "VENDORED_BUILD": "windows.2",
+    "VENDORED_MAJOR": "2",
+    "VENDORED_MINOR": "24",
+    "VENDORED_PATCH": "1",
+    "verbose_output": "0",
+    "windir": "C:\\Windows",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "D:\\setups\\cmder\\vendor\\conemu-maximus5\\ConEmu\\ConEmuHk64.dll",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\System32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\System32\\winrnr.dll"
+  ]
+}
