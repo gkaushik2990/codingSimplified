@@ -120,7 +120,7 @@ class LinkedList {
     getAt(n){
         let count = 0;
         if(!this.head){
-            return this.head;
+            return null;
         }
 
         let node = this.head;
@@ -133,6 +133,53 @@ class LinkedList {
             node = node.next;
             
         }
+
+        return null;
+    }
+
+    //Remove at Specific location
+    removeAt(n){
+        
+        if(!this.head){
+            return;
+        }
+        
+        if(n===0){
+            this.head = this.head.next;
+            return;
+        }
+
+        const previous = this.getAt(n-1);
+        if(!previous || !previous.next){
+            return;
+        }
+        previous.next = previous.next.next;
+
+        return;
+    }
+
+    insertAt(data , n){
+        
+        let dataNode = new Node(data);
+
+        if(n===0){
+            dataNode.next= this.head;
+            this.head = dataNode;
+            return;
+        }
+
+        if(n < this.size()){
+            const previous = this.getAt(n-1);
+            dataNode.next  = previous.next;
+            previous.next = dataNode;
+        }
+        else{
+            let lastNode = this.getLast();
+            lastNode.next = dataNode;
+        }
+        
+
+        return;
     }
 
 }
